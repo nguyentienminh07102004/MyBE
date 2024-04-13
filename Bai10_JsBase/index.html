@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <input type="text" id="name">
+    <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1x9F1Z8DNrJcSQgFhrkK0jevDfn-QjYrY9lQY-Q8CXg&s"
+            alt="" srcset="" width="200px" class="image">
+    </a>
+    <button class="closeQC">X</button> -->
+
+    <!-- <div id="menu" class="menu">
+        <button id="buttonClose">Close</button>
+        <ul>
+            <li>Mục 1</li>
+            <li>Mục 2</li>
+            <li>Mục 3</li>
+        </ul>
+    </div>
+    <button class="button" id="buttonMenu">Menu!</button> -->
+
+    <select id="color">
+        <option value="red">RED</option>
+        <option value="yellow">YELLOW</option>
+        <option value="black">BLACK</option>
+    </select>
+</body>
+<script src="script.js"></script>
+<style>
+    /* .Close {
+        display: none;
+    } */
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+    }
+    .menu {
+        background-color: orange;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        display: none;
+    }
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu ul li {
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+    .button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .menu.active {
+        display: inline-block;
+    }
+</style>
+</html>
